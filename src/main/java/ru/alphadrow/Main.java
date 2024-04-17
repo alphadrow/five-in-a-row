@@ -228,14 +228,14 @@ public class Main {
         System.out.println();*/
         return result;
 
-}
-        private static boolean isPlayAgain () {
-            Scanner scanner = new Scanner(System.in);
-            int answer;
-            do {
-                System.out.print("Играем ещё? (0 - нет / 1 - да)");
-                answer = scanner.nextInt();
-            } while (answer != 1 && answer != 0);
-            return answer == 1;
-        }
     }
+    private static boolean isPlayAgain () {
+        Scanner scanner = new Scanner(System.in);
+        int answer;
+        do {
+            System.out.print("Играем ещё? (0 - нет / 1 - да)");
+            answer = scanner.nextInt();
+        } while (answer != 1 && answer != 0);
+        return answer == 1;
+    }
+}
